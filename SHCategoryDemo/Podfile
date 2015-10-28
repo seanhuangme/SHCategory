@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'SHCategoryDemo' do
+pod 'HexColors', '~> 2.2.1'
+pod 'Masonry', '~> 0.5.3'
+
+pod 'MBProgressHUD', '~> 0.8'
+pod 'MBProgressHUDExtensions', '~> 0.0.1'
+pod 'UIImage-ResizeMagick', '~> 0.0.1'
+end
+
+target 'SHCategoryDemoTests' do
+
+end
+
+target 'SHCategoryDemoUITests' do
+
+end
+
