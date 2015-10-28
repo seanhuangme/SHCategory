@@ -25,28 +25,28 @@
  *
  *  @return return value description
  */
-- (BOOL)inMonthOfTimestamp:(NSTimeInterval)timestamp {
-    NSDateComponents* comp1 = [APPDELEGATE.calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit fromDate:self];
-    NSDateComponents* comp2 = [APPDELEGATE.calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit fromDate:[NSDate dateWithTimeIntervalSince1970:timestamp]];
+- (BOOL)inMonthOfTimestamp:(NSTimeInterval)timestamp withCalendar:(NSCalendar *)calendar {
+    NSDateComponents* comp1 = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit fromDate:self];
+    NSDateComponents* comp2 = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit fromDate:[NSDate dateWithTimeIntervalSince1970:timestamp]];
     
     BOOL dateInMonth = (comp1.year == comp2.year && comp1.month == comp2.month);
     
     return dateInMonth;
 }
 
-- (NSDate *)getMonthFirstDay {
-    NSDateComponents *components = [APPDELEGATE.calendar components:(NSEraCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit) fromDate:self];
+- (NSDate *)getMonthFirstDayWithCalendar:(NSCalendar *)calendar {
+    NSDateComponents *components = [calendar components:(NSEraCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit) fromDate:self];
     components.day = 1;
-    NSDate *dayOneInCurrentMonth = [APPDELEGATE.calendar dateFromComponents:components];
+    NSDate *dayOneInCurrentMonth = [calendar dateFromComponents:components];
     
     return dayOneInCurrentMonth;
 }
 
-- (NSDate *)getYearFirstDay {
-    NSDateComponents *components = [APPDELEGATE.calendar components:(NSEraCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit) fromDate:self];
+- (NSDate *)getYearFirstDayWithCalendar:(NSCalendar *)calendar {
+    NSDateComponents *components = [calendar components:(NSEraCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit) fromDate:self];
     components.month = 1;
     components.day = 1;
-    NSDate *dayOneInCurrentMonth = [APPDELEGATE.calendar dateFromComponents:components];
+    NSDate *dayOneInCurrentMonth = [calendar dateFromComponents:components];
     
     return dayOneInCurrentMonth;
 }

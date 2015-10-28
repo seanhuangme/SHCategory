@@ -27,10 +27,12 @@
 - (NSString *)getYearString;
 - (NSString *)getDateTimeZeroStringWithSlash;
 
-- (BOOL)inMonthOfTimestamp:(NSTimeInterval)timestamp;
-
-- (NSDate *)getMonthFirstDay;
-- (NSDate *)getYearFirstDay;
+/**
+ *
+ */
+- (BOOL)inMonthOfTimestamp:(NSTimeInterval)timestamp withCalendar:(NSCalendar *)calendar;
+- (NSDate *)getMonthFirstDayWithCalendar:(NSCalendar *)calendar;
+- (NSDate *)getYearFirstDayWithCalendar:(NSCalendar *)calendar;
 
 /**
  *
