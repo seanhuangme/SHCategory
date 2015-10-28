@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'HexColors', '2.2.1'
   s.dependency 'MBProgressHUD', '0.8'
   s.dependency 'MBProgressHUDExtensions', '0.0.1'
+  s.dependency 'UIImage-ResizeMagick', '0.0.1'
 end
