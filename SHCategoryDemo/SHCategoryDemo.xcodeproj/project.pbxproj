@@ -33,7 +33,6 @@
 		22907C4A1BE0ECC40052A011 /* UIScrollView+Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C331BE0ECC40052A011 /* UIScrollView+Direction.m */; };
 		22907C4B1BE0ECC40052A011 /* UITableView+LastIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C351BE0ECC40052A011 /* UITableView+LastIndexPath.m */; };
 		22907C4C1BE0ECC40052A011 /* UIView+Superview.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C371BE0ECC40052A011 /* UIView+Superview.m */; };
-		22907C4D1BE0ECC40052A011 /* UIViewController+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C391BE0ECC40052A011 /* UIViewController+AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,8 +104,6 @@
 		22907C351BE0ECC40052A011 /* UITableView+LastIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LastIndexPath.m"; sourceTree = "<group>"; };
 		22907C361BE0ECC40052A011 /* UIView+Superview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Superview.h"; sourceTree = "<group>"; };
 		22907C371BE0ECC40052A011 /* UIView+Superview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Superview.m"; sourceTree = "<group>"; };
-		22907C381BE0ECC40052A011 /* UIViewController+AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AppDelegate.h"; sourceTree = "<group>"; };
-		22907C391BE0ECC40052A011 /* UIViewController+AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppDelegate.m"; sourceTree = "<group>"; };
 		AFD582DCE7248B4CD63C81E7 /* libPods-SHCategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHCategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4318B90504B77E6887F1D33 /* Pods-SHCategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHCategoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHCategoryDemo/Pods-SHCategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -239,8 +236,6 @@
 				22907C351BE0ECC40052A011 /* UITableView+LastIndexPath.m */,
 				22907C361BE0ECC40052A011 /* UIView+Superview.h */,
 				22907C371BE0ECC40052A011 /* UIView+Superview.m */,
-				22907C381BE0ECC40052A011 /* UIViewController+AppDelegate.h */,
-				22907C391BE0ECC40052A011 /* UIViewController+AppDelegate.m */,
 			);
 			name = SHCategory;
 			path = ../SHCategory;
@@ -448,7 +443,6 @@
 				22907C461BE0ECC40052A011 /* UIFont+SytemFontOverride.m in Sources */,
 				22907C471BE0ECC40052A011 /* UIImage+FixOrientation.m in Sources */,
 				22907C3F1BE0ECC40052A011 /* NSNull+Trick.m in Sources */,
-				22907C4D1BE0ECC40052A011 /* UIViewController+AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
