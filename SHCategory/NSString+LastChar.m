@@ -1,9 +1,9 @@
 //
 //  NSString+LastChar.m
-//  QeeNiaoOC
+//  Sean Huang
 //
 //  Created by seanhuang on 15-01-21.
-//  Copyright (c) 2015年 qeeniao. All rights reserved.
+//  Copyright (c) 2015年 seanhuang. All rights reserved.
 //
 
 #import "NSString+LastChar.h"
@@ -50,30 +50,6 @@
 + (NSString *)makeSystemUuid {
     return (NSString*)CFBridgingRelease(CFUUIDCreateString(nil, CFUUIDCreate(nil)));
 }
-
-//+ (NSString *)makeUuid {
-//    // -------------------------------------------------------------------------
-//    // -------------------------------------------------------------------------
-//    int lastID = [[NSUserDefaults standardUserDefaults] integerForKey:@"QeeNiao#AutoIncrementID"];
-//
-//    // -------------------------------------------------------------------------
-//    // -------------------------------------------------------------------------
-//    NSDate *dateNow = [NSDate dateWithTimeIntervalSinceNow:0];
-//    NSTimeInterval timestampNow = [dateNow timeIntervalSince1970];
-//
-//    int newID = 0;
-//    if ((int)timestampNow <= lastID) {
-//        newID = lastID + 1;
-//    } else {
-//        newID = (int)timestampNow;
-//    }
-//    
-//    [[NSUserDefaults standardUserDefaults] setInteger:newID forKey:@"QeeNiao#AutoIncrementID"];
-//
-//    NSString *timeString = [NSString stringWithFormat:@"%d", newID];
-//    
-//    return timeString;
-//}
 
 + (NSString *)makeUuid {
     // -------------------------------------------------------------------------

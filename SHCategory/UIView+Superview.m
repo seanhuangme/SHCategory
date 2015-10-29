@@ -1,16 +1,16 @@
 //
 //  UIView+Superview.m
-//  QeeNiaoOC
+//  Sean Huang
 //
 //  Created by seanhuang on 14-12-29.
-//  Copyright (c) 2014年 qeeniao. All rights reserved.
+//  Copyright (c) 2014年 seanhuang. All rights reserved.
 //
 
 #import <objc/runtime.h>
 #import "UIView+Superview.h"
 
-#ifndef QeeNiaoOC_ImportMasonry_h
-#define QeeNiaoOC_ImportMasonry_h
+#ifndef SHM_ImportMasonry_h
+#define SHM_ImportMasonry_h
 
 //define this constant if you want to use Masonry without the 'mas_' prefix
 #define MAS_SHORTHAND

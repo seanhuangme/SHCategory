@@ -1,9 +1,9 @@
 //
 //  UIView+Superview.h
-//  QeeNiaoOC
+//  Sean Huang
 //
 //  Created by seanhuang on 14-12-29.
-//  Copyright (c) 2014年 qeeniao. All rights reserved.
+//  Copyright (c) 2014年 seanhuang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

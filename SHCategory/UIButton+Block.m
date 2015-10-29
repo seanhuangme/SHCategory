@@ -1,9 +1,9 @@
 //
 //  UIButton+Block.m
-//  QeeNiaoOC
+//  Sean Huang
 //
 //  Created by seanhuang on 15-05-12.
-//  Copyright (c) 2015年 qeeniao. All rights reserved.
+//  Copyright (c) 2015年 seanhuang. All rights reserved.
 //
 
 #import "UIButton+Block.h"
