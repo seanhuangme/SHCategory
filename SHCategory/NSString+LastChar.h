@@ -27,4 +27,10 @@
 - (NSDate *)tryToBeDate;
 
 + (NSString *)getNoTailZeroStringWith:(float)floatNum;
+
+/**
+ *
+ */
++ (NSString *)encodeToPercentEscapeString:(NSString *)input;
++ (NSString *)decodeFromPercentEscapeString:(NSString *)input;
 @end

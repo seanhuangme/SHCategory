@@ -132,4 +132,36 @@
     return noTailZeroString;
 }
 
+#pragma mark -
++ (NSString *)encodeToPercentEscapeString:(NSString *)input
+{
+    // http://blog.csdn.net/kesalin/article/details/6678939
+    
+    /**
+     *
+     */
+    // Encode all the reserved characters, per RFC 3986
+    // (<http://www.ietf.org/rfc/rfc3986.txt>)
+    CFStringRef tmp = CFURLCreateStringByAddingPercentEscapes(
+                                                              kCFAllocatorDefault,
+                                                              (CFStringRef)input,
+                                                              NULL,
+                                                              (CFStringRef)@"!*'();:@&=+$,/?%#[]",
+                                                              kCFStringEncodingUTF8
+                                                              );
+    NSString *outputStr = (NSString *)CFBridgingRelease(tmp);
+
+    return outputStr;
+}
+
++ (NSString *)decodeFromPercentEscapeString:(NSString *)input
+{
+    NSMutableString *outputStr = [NSMutableString stringWithString:input];
+    [outputStr replaceOccurrencesOfString:@"+"
+                               withString:@" "
+                                  options:NSLiteralSearch
+                                    range:NSMakeRange(0, [outputStr length])];
+    
+    return [outputStr stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+}
 @end
