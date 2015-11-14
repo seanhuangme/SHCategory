@@ -9,12 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @interface NSNull (Trick)
-- (NSUInteger)length;
+
+#pragma mark - xxxValue
 - (NSInteger)integerValue;
 - (float)floatValue;
+- (double)doubleValue;
+- (BOOL)boolValue;
+- (long long)longLongValue;
+
+#pragma mark -
+- (NSUInteger)length;
 - (NSString *)description;
 - (NSArray *)componentsSeparatedByString:(NSString *)separator;
 - (id)objectForKey:(id)key;
-- (BOOL)boolValue;
-- (long long)longLongValue;
 @end
