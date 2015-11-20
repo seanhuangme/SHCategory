@@ -22,16 +22,10 @@
 		22907C3F1BE0ECC40052A011 /* NSNull+Trick.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C1D1BE0ECC40052A011 /* NSNull+Trick.m */; };
 		22907C401BE0ECC40052A011 /* NSNumber+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C1F1BE0ECC40052A011 /* NSNumber+ToString.m */; };
 		22907C411BE0ECC40052A011 /* NSString+LastChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C211BE0ECC40052A011 /* NSString+LastChar.m */; };
-		22907C421BE0ECC40052A011 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C231BE0ECC40052A011 /* UIButton+Block.m */; };
 		22907C431BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C251BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.m */; };
-		22907C441BE0ECC40052A011 /* UIColor+KDZJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C271BE0ECC40052A011 /* UIColor+KDZJ.m */; };
 		22907C451BE0ECC40052A011 /* UIFont+FontNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C291BE0ECC40052A011 /* UIFont+FontNames.m */; };
-		22907C461BE0ECC40052A011 /* UIFont+SytemFontOverride.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C2B1BE0ECC40052A011 /* UIFont+SytemFontOverride.m */; };
 		22907C471BE0ECC40052A011 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C2D1BE0ECC40052A011 /* UIImage+FixOrientation.m */; };
-		22907C481BE0ECC40052A011 /* UINavigationBar+BottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C2F1BE0ECC40052A011 /* UINavigationBar+BottomLine.m */; };
-		22907C491BE0ECC40052A011 /* UIScreen+RatioAdaptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C311BE0ECC40052A011 /* UIScreen+RatioAdaptor.m */; };
 		22907C4A1BE0ECC40052A011 /* UIScrollView+Direction.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C331BE0ECC40052A011 /* UIScrollView+Direction.m */; };
-		22907C4B1BE0ECC40052A011 /* UITableView+LastIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C351BE0ECC40052A011 /* UITableView+LastIndexPath.m */; };
 		22907C4C1BE0ECC40052A011 /* UIView+Superview.m in Sources */ = {isa = PBXBuildFile; fileRef = 22907C371BE0ECC40052A011 /* UIView+Superview.m */; };
 /* End PBXBuildFile section */
 
@@ -82,26 +76,14 @@
 		22907C1F1BE0ECC40052A011 /* NSNumber+ToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ToString.m"; sourceTree = "<group>"; };
 		22907C201BE0ECC40052A011 /* NSString+LastChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LastChar.h"; sourceTree = "<group>"; };
 		22907C211BE0ECC40052A011 /* NSString+LastChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LastChar.m"; sourceTree = "<group>"; };
-		22907C221BE0ECC40052A011 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
-		22907C231BE0ECC40052A011 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		22907C241BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+DelegateFlowLayout.h"; sourceTree = "<group>"; };
 		22907C251BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+DelegateFlowLayout.m"; sourceTree = "<group>"; };
-		22907C261BE0ECC40052A011 /* UIColor+KDZJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KDZJ.h"; sourceTree = "<group>"; };
-		22907C271BE0ECC40052A011 /* UIColor+KDZJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KDZJ.m"; sourceTree = "<group>"; };
 		22907C281BE0ECC40052A011 /* UIFont+FontNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FontNames.h"; sourceTree = "<group>"; };
 		22907C291BE0ECC40052A011 /* UIFont+FontNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FontNames.m"; sourceTree = "<group>"; };
-		22907C2A1BE0ECC40052A011 /* UIFont+SytemFontOverride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+SytemFontOverride.h"; sourceTree = "<group>"; };
-		22907C2B1BE0ECC40052A011 /* UIFont+SytemFontOverride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SytemFontOverride.m"; sourceTree = "<group>"; };
 		22907C2C1BE0ECC40052A011 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		22907C2D1BE0ECC40052A011 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
-		22907C2E1BE0ECC40052A011 /* UINavigationBar+BottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BottomLine.h"; sourceTree = "<group>"; };
-		22907C2F1BE0ECC40052A011 /* UINavigationBar+BottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BottomLine.m"; sourceTree = "<group>"; };
-		22907C301BE0ECC40052A011 /* UIScreen+RatioAdaptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+RatioAdaptor.h"; sourceTree = "<group>"; };
-		22907C311BE0ECC40052A011 /* UIScreen+RatioAdaptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+RatioAdaptor.m"; sourceTree = "<group>"; };
 		22907C321BE0ECC40052A011 /* UIScrollView+Direction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Direction.h"; sourceTree = "<group>"; };
 		22907C331BE0ECC40052A011 /* UIScrollView+Direction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Direction.m"; sourceTree = "<group>"; };
-		22907C341BE0ECC40052A011 /* UITableView+LastIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LastIndexPath.h"; sourceTree = "<group>"; };
-		22907C351BE0ECC40052A011 /* UITableView+LastIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LastIndexPath.m"; sourceTree = "<group>"; };
 		22907C361BE0ECC40052A011 /* UIView+Superview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Superview.h"; sourceTree = "<group>"; };
 		22907C371BE0ECC40052A011 /* UIView+Superview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Superview.m"; sourceTree = "<group>"; };
 		AFD582DCE7248B4CD63C81E7 /* libPods-SHCategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHCategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,26 +196,14 @@
 				22907C1F1BE0ECC40052A011 /* NSNumber+ToString.m */,
 				22907C201BE0ECC40052A011 /* NSString+LastChar.h */,
 				22907C211BE0ECC40052A011 /* NSString+LastChar.m */,
-				22907C221BE0ECC40052A011 /* UIButton+Block.h */,
-				22907C231BE0ECC40052A011 /* UIButton+Block.m */,
 				22907C241BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.h */,
 				22907C251BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.m */,
-				22907C261BE0ECC40052A011 /* UIColor+KDZJ.h */,
-				22907C271BE0ECC40052A011 /* UIColor+KDZJ.m */,
 				22907C281BE0ECC40052A011 /* UIFont+FontNames.h */,
 				22907C291BE0ECC40052A011 /* UIFont+FontNames.m */,
-				22907C2A1BE0ECC40052A011 /* UIFont+SytemFontOverride.h */,
-				22907C2B1BE0ECC40052A011 /* UIFont+SytemFontOverride.m */,
 				22907C2C1BE0ECC40052A011 /* UIImage+FixOrientation.h */,
 				22907C2D1BE0ECC40052A011 /* UIImage+FixOrientation.m */,
-				22907C2E1BE0ECC40052A011 /* UINavigationBar+BottomLine.h */,
-				22907C2F1BE0ECC40052A011 /* UINavigationBar+BottomLine.m */,
-				22907C301BE0ECC40052A011 /* UIScreen+RatioAdaptor.h */,
-				22907C311BE0ECC40052A011 /* UIScreen+RatioAdaptor.m */,
 				22907C321BE0ECC40052A011 /* UIScrollView+Direction.h */,
 				22907C331BE0ECC40052A011 /* UIScrollView+Direction.m */,
-				22907C341BE0ECC40052A011 /* UITableView+LastIndexPath.h */,
-				22907C351BE0ECC40052A011 /* UITableView+LastIndexPath.m */,
 				22907C361BE0ECC40052A011 /* UIView+Superview.h */,
 				22907C371BE0ECC40052A011 /* UIView+Superview.m */,
 			);
@@ -425,14 +395,9 @@
 			files = (
 				22907C411BE0ECC40052A011 /* NSString+LastChar.m in Sources */,
 				22907C4A1BE0ECC40052A011 /* UIScrollView+Direction.m in Sources */,
-				22907C421BE0ECC40052A011 /* UIButton+Block.m in Sources */,
 				22907C4C1BE0ECC40052A011 /* UIView+Superview.m in Sources */,
-				22907C481BE0ECC40052A011 /* UINavigationBar+BottomLine.m in Sources */,
-				22907C4B1BE0ECC40052A011 /* UITableView+LastIndexPath.m in Sources */,
 				22907C431BE0ECC40052A011 /* UICollectionView+DelegateFlowLayout.m in Sources */,
 				22907C3E1BE0ECC40052A011 /* NSDictionary+ToJsonString.m in Sources */,
-				22907C441BE0ECC40052A011 /* UIColor+KDZJ.m in Sources */,
-				22907C491BE0ECC40052A011 /* UIScreen+RatioAdaptor.m in Sources */,
 				22907BEA1BE0ECAB0052A011 /* ViewController.m in Sources */,
 				22907C3C1BE0ECC40052A011 /* NSArray+FindByClass.m in Sources */,
 				22907C451BE0ECC40052A011 /* UIFont+FontNames.m in Sources */,
@@ -440,7 +405,6 @@
 				22907BE41BE0ECAB0052A011 /* main.m in Sources */,
 				22907C401BE0ECC40052A011 /* NSNumber+ToString.m in Sources */,
 				22907C3D1BE0ECC40052A011 /* NSDate+DateTimeZero.m in Sources */,
-				22907C461BE0ECC40052A011 /* UIFont+SytemFontOverride.m in Sources */,
 				22907C471BE0ECC40052A011 /* UIImage+FixOrientation.m in Sources */,
 				22907C3F1BE0ECC40052A011 /* NSNull+Trick.m in Sources */,
 			);
