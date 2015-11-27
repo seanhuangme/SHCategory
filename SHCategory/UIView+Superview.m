@@ -22,7 +22,7 @@
 /**
  *
  */
-#define IS_IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7 && [[[UIDevice currentDevice] systemVersion] floatValue] < 8)
+#define IS_IOS7 ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 7 && [[[UIDevice currentDevice] systemVersion] doubleValue] < 8)
 
 static NSDictionary *uiview_dict = nil;
 

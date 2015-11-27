@@ -12,7 +12,7 @@
 
 - (NSString *)toString {
     NSString *numStr;
-    if ([self integerValue] == [self floatValue]) {
+    if ([self integerValue] == [self doubleValue]) {
         numStr = [self toIntString];
     } else {
         numStr = [self toFloatString];
@@ -32,7 +32,7 @@
 - (NSString *)toFloatString {
     NSString *numStr;
 
-    numStr = [NSString stringWithFormat:@"%.2f", [self floatValue]];
+    numStr = [NSString stringWithFormat:@"%.2f", [self doubleValue]];
     
     return numStr;
 }
@@ -40,7 +40,7 @@
 - (NSString *)toFloat1String {
     NSString *numStr;
     
-    numStr = [NSString stringWithFormat:@"%.1f", [self floatValue]];
+    numStr = [NSString stringWithFormat:@"%.1f", [self doubleValue]];
     
     return numStr;
 }
@@ -48,7 +48,7 @@
 - (NSString *)toFloat2String {
     NSString *numStr;
     
-    numStr = [NSString stringWithFormat:@"%.2f", [self floatValue]];
+    numStr = [NSString stringWithFormat:@"%.2f", [self doubleValue]];
     
     return numStr;
 }

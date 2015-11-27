@@ -39,7 +39,7 @@
 }
 
 - (BOOL)isInt {
-    if ([self integerValue] == [self floatValue]) {
+    if ([self integerValue] == [self doubleValue]) {
         return YES;
     }
     
@@ -119,8 +119,8 @@
     NSString *string1 = [NSString stringWithFormat:@"%.1f", floatNum];
     NSString *string2 = [NSString stringWithFormat:@"%.2f", floatNum];
     
-    if ([string1 floatValue] == [string2 floatValue]) {
-        if ([string0 floatValue] == [string1 floatValue]) {
+    if ([string1 doubleValue] == [string2 doubleValue]) {
+        if ([string0 doubleValue] == [string1 doubleValue]) {
             noTailZeroString = string0;
         } else {
             noTailZeroString = string1;
